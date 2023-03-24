@@ -1,0 +1,43 @@
+body{
+    background-color: lightskyblue;
+}
+.header{
+    text-align: center;
+}
+.content{
+    display: flex;
+    gap: 2rem;
+}
+.left-content,.right-content{
+    flex: 0.5;
+    background-color: white;
+    height: 70vh; 
+    text-align: center;
+}
+.left-content>h1{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding-top: 0;
+    margin-bottom: 2rem;
+}
+.right-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.left-content>label{
+font-size: larger;
+display: flex;
+flex-direction: column;
+gap: 2rem;
+}
+.top-div>h1,.mid-div>h1,.bot-div>h1{
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+.top-div>div,.mid-div>div,.bot-div>div{
+    padding: 2em;
+    font-size: larger;
+}
